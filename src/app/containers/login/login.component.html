@@ -1,0 +1,5 @@
+<section>
+  <input type="text" placeholder="login" [(ngModel)]="login">
+  <input type="password" placeholder="password" [(ngModel)]="password">
+</section>
+<app-login-select (user)="handleInput($event)"></app-login-select>
